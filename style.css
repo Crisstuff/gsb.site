@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.content {
+    margin-left: 200px; /* Adjust this value based on your needs */
+    padding: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    .navbar a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
