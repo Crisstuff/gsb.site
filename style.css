@@ -1,8 +1,4 @@
-:root {
-    --white: white;
-    --black: black;
-  }
-  
+
   .w-layout-blockcontainer {
     max-width: 940px;
     margin-left: auto;
@@ -44,10 +40,6 @@
   .grid {
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .hello {
-    background-color: #3a2069;
   }
   
   .grid-2 {
