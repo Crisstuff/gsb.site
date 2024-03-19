@@ -60,8 +60,8 @@ h1{
 
 .vask-og-rens{
     display: flex;
-    background-color: brown;
-    padding: 50px 40px;
+    background-color: #f5f7fa;
+    padding: 50px ;
     text-align: left;
     justify-content: center;
 
@@ -69,10 +69,15 @@ h1{
 }
 .text-hero-split{
     border: #333;/*har ingen betydingn fjern etterpå */
+    width: 400px;
+    margin-right: 50px;
 
 }
 .bilde-hero-split{
     margin-left: 50px;
+}
 
-
+.bilde-sliding{
+    background-color: #333;
+    padding: 50px ;
 }
