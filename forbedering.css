@@ -41,11 +41,38 @@ body{
         display: block;
     }
 }
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 16px;
+}
 
 
-
+h1{
+    font-size: 40px;
+}
 
 .topbilde{
     opacity: 50%;
     fill: none;
+}
+
+.vask-og-rens{
+    display: flex;
+    background-color: brown;
+    padding: 50px 40px;
+    text-align: left;
+    justify-content: center;
+
+    
+}
+.text-hero-split{
+    border: #333;/*har ingen betydingn fjern etterpå */
+
+}
+.bilde-hero-split{
+    margin-left: 50px;
+
+
 }
