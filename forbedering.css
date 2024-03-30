@@ -8,6 +8,8 @@ body{
 .topnav {
     overflow: hidden;
     background-color: #333;
+    position: sticky;
+
 }
   
 .topnav a {
@@ -16,7 +18,6 @@ body{
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
-    font-size: 17px;
     font-size: 21px;
     right: 40px;
 }
@@ -39,33 +40,57 @@ button{
 h1{
     font-size: 40px;
 }
-
-.topbilde{
-    opacity: 50%;
-    fill: none;
+.toppbilde{
+    background-image:url(bilder\ /images.jpeg);
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
 }
 
-.vask-og-rens{
+.slide1{
     display: flex;
     background-color: #f5f7fa;
     padding: 50px ;
     text-align: left;
     justify-content: center;
-
-    
 }
 .text-hero-split{
     border: #333;/*har ingen betydingn fjern etterpå */
     width: 400px;
-    margin-right: 50px;
+    margin-right: 40px;
 
 }
 .bilde-hero-split{
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-.bilde-sliding{
+.slide2{
     background-color: #333;
     padding: 50px ;
+}
+.slide3{
+    display: flex;
+}
+.slide3_størrelse {
+    width: 500px;
+    align-items: center;
+}
+.slide4{
+    display: flex;
+    background-color: #f5f7fa;
+    padding: 50px ;
+    text-align: left;
+    justify-content: center;
+}
+
+.slide5{
+    display: flex;
+}
+.slide6{
+    display: flex;
+    padding: 16px 30px;
+}
+.slide6_bilde{
+    padding: 6px 20px;
 }
 
