@@ -28,20 +28,6 @@ body{
 /*verson 1 av navbar*/
 
 /* Add your global styles here */
-
-@media only screen and (max-width: 600px) {
-    /* Styles for screens with a maximum width of 300px */
-    .navbara {
-        display: none;
-    }
-
-    .navbarb {
-        display: block;
-    }
-    .icon {
-        display: block;
-    }
-}
 button{
     background-color: black;
     color: white;
@@ -83,6 +69,3 @@ h1{
     padding: 50px ;
 }
 
-.lokasjon{
-
-}
