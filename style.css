@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+}
+button{
+    text-align: center;
+    border: solid #313066;
+    background: none;
+    color: rgb(219, 7, 7);
+    font-size: larger;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px
+    
+}
+b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+/*top nav styling ligger under her*/
+.topnav {
+    overflow: hidden;
+    background-color: rgb(57, 57, 135);
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #217ee8;
+    color: rgb(255, 255, 255);
+    transition: 0.6s;
+}
+  
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+    background-color: rgb(144, 144, 215);
+    color: white;
+}
+.tom-a{
+    display: none;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.botnav {
+    background-color: #313066;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    text-align: center ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+  
+/* Style the links inside the navigation bar */
+.botnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.botnav a:hover {
+    color: rgb(255, 156, 156);
+}
+.botnav p {
+    color: white;
+}
+
+/*side styling*/
+.topside{
+    padding: 30px 100px;
+}
+
+
+/*felles styling gjenom sidene er her*/
+.deltside{
+    background-color: white;
+    display: flex;
+    padding: 30px 20px;
+    color: black;
+}
+.deltside-1{
+    width: 50%;
+}
+.deltside-2{
+    width: 50%;
+}
