@@ -140,6 +140,7 @@ section{
     border-radius: 20px;
     padding: 70px 80p;
     color: #000;
+    width: 800px;
 }
 .topprofil{
     background-color: #e0e0e0;
@@ -168,6 +169,6 @@ section{
     background-color: #e0e0e0;
     position: relative;
     margin: auto;
-    width: 500px;
+    width: 300px;
 }
 
