@@ -1,5 +1,7 @@
 body{
     text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 button{
     text-align: center;
@@ -15,9 +17,13 @@ h1{
 }
 b{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    margin-bottom: 30px;
 }
 
 
@@ -98,6 +104,11 @@ p{
 
 
 /*felles styling gjenom sidene er her*/
+.main-page{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
 .deltside{
     background-color: white;
     display: flex;
@@ -110,3 +121,53 @@ p{
 .deltside-2{
     width: 50%;
 }
+
+
+
+/*Tilbakemelding styling side er her*/
+.tilbakemeldinger-list{
+    width: 60%;
+    padding: 50px 200px;
+    background-color: rgb(57, 57, 135);
+    color: white;
+    border-radius: 30px;
+    margin: 5%;
+}
+.bilde_tilbakemeldinger{
+    background-color: #e0e0e0;
+    border: solid #e0e0e0 30px;
+    display: flex;
+    border-radius: 20px;
+    padding: 70px 80p;
+    color: #000;
+}
+.topprofil{
+    background-color: #e0e0e0;
+    padding: 2px 7px;
+}
+.profil{
+    display: flex;
+    font-size: 25px;
+}
+.profil_img{
+    width: 70px;
+    height:70px;
+}
+.dato{
+    text-align: left;
+ 
+    text-decoration: underline;
+}
+.tilbakemelding{
+    padding: 5px;
+    text-align: left;
+    width: 300px;/* du kan også prøve 50% den var også bra*/
+}
+.slideshow-container{
+    padding: 10px;
+    background-color: #e0e0e0;
+    position: relative;
+    margin: auto;
+    width: 800px;
+}
+

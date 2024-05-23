@@ -1,0 +1,12 @@
+@keyframes fadeEffect {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+.fade {
+    animation: fadeEffect 10s infinite;
+}
+.mySlides {
+    border: solid rgb(246, 246, 246) 10px;
+    display: none;
+}
