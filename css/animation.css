@@ -4,7 +4,7 @@
     100% { opacity: 0; }
 }
 .fade {
-    animation: fadeEffect 10s infinite;
+    animation: fadeEffect 8s infinite;
 }
 .mySlides {
     border: solid rgb(246, 246, 246) 10px;
